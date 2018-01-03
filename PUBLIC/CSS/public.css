@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#myCarousel{
+	margin:30px 0 0;
+}
+.carousel-inner img{
+	margin:0 auto;
+}
+.carousel-control{
+font-size:100px;
+line-height:300px;
+}
+.tab-h2{
+	margin-top:50px;
+	font-size:30px;
+	text-align:center;
+	color:#082948;
+	letter-spacing:1px;
+}
+.tab-p{
+	font-size:18px;
+	text-align:center;
+	text-align:center;
+	color:#666;
+}
+.tab1{
+	margin:auto;
+	color:#666;
+}
+#con{
+
+margin-left:200px;;}

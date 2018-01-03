@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="maximum-scale=1,user-scale=1, width=device-width, initial-scale=1 ">
+
+	<title>管理员登录</title>
+	<link rel="stylesheet" type="text/css" href="http://localhost/classManage/bootstrap/css/bootstrap.css">
+	
+</head>
+<body class="lead">
+	<nav class="navbar navbar-default navbar-fixed-top" style="background:#121212">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="###" class="navbar-brand"><span class="glyphicon glyphicon-user"></span> 学生管理系统</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav navbar-right" style="margin-top:0px;">
+				<li><a href="http://localhost/classManage/index.php/Index/index"><span class="glyphicon glyphicon-home"></span> 首页</a></li>
+				<li><a href="http://localhost/classManage/index.php/User/user"><span class="glyphicon glyphicon-question-sign"></span> 个人中心</a></li>
+				<li><a href="http://localhost/classManage/index.php/DoLogout/doLogout"><span class="glyphicon glyphicon-info-sign"></span> 注销</a></li>
+				<li><a href="http://localhost/classManage/index.php/Login/login"><span class="glyphicon glyphicon-check"></span> 登录</a></li>
+			</ul>
+			</div>
+			
+		</div>
+	</nav>
+	
+	<div class="container" style="width:40%;margin-top:100px;">
+
+    	<form class="form-signin" method="post" action='__URL__/dologin' name="myForm">
+    		<h2>Please Login</h2>
+			
+			
+        	<label for="inputName" class="sr-only">Username</label>
+        	<input type="text" maxlength="20" id="inputName" class="form-control" placeholder="姓名" name="name" required autofocus></br>
+        	<label for="inputPassword" class="sr-only">Password</label>
+        	<input type="password" maxlength="20" id="inputPassword" class="form-control" placeholder="密码" name="password" required></br>
+			<div class="checkbox">
+          		<label>
+            		<input type="checkbox" value="remember-me"> Remember me
+          		</label>
+        	</div>
+        	
+        	<button class="btn btn-lg btn-primary btn-block" type="submit">Login in</button>
+      </form>
+
+    </div>
+	
+	
+	<script src="http://localhost/classManage/bootstrap/js/jquery.min.js"></script>
+	<script src="http://localhost/classManage/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

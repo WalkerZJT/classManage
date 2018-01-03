@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'gaoshu', 2 => 'english', 3 => 'political', 4 => 'sum', 5 => 'rank', 6 => 'name', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'bigint(20)', 'gaoshu' => 'int(4)', 'english' => 'int(4)', 'political' => 'int(4)', 'sum' => 'bigint(5)', 'rank' => 'bigint(5)', 'name' => 'varchar(8)', ), );?>
